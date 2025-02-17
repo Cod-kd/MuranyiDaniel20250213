@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './parent.component.css'
 })
 export class ParentComponent {
-
+  a: number = 0;
+  b: number = 0;
+  operation: boolean = true;
 }
